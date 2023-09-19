@@ -5,7 +5,7 @@ import pandas as pd
 from PIL import Image
 
 # Load the trained ensemble models
-majority_vote_model = joblib.load('mayoritas.pkl')
+majority_vote_model = joblib.load("mayoritas.pkl")
 
 # Load the preprocessed dataset
 preprocessed_data = pd.read_excel("datasetfix.xlsx")
